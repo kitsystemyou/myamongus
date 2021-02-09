@@ -6,16 +6,14 @@ on:
       - main
 jobs:
   deploy:
-    runs-on: node:15-alpine
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
           submodules: true  # Fetch Hugo themes
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
       - name: Build
         run: npx boogi-cli build
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
