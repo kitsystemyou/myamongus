@@ -3,8 +3,8 @@ metadata:
   short_name: ComeOnAmongUS
   description: ''
   language: ja
-  url: 'http://localhost'
-  pathPrefix: /
+  url: 'https://tindalia.github.io/myamongus/'
+  pathPrefix: /myamongus
   gaTrackingId: null
   favicon: /assets/favicon.png
   themeColor: '#0066cc'
