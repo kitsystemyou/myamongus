@@ -1,6 +1,6 @@
 metadata:
-  name: MyAmongUS
-  short_name: MyAmongUS
+  name: ComeOnAmongUS
+  short_name: ComeOnAmongUS
   description: ''
   language: ja
   url: 'http://localhost'
@@ -16,7 +16,10 @@ sidebar:
   ignoreIndex: false
   forcedNavOrder: []
   expanded: []
-  groups: []
+  groups: 
+    - order: 1
+      path: "/map"
+      title: ":rocket: マップとタスク"
   links: []
   poweredBy: {}
   enabled: true
