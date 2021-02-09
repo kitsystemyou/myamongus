@@ -3,3 +3,4 @@
   command = "npx boogi-cli build"
 
 [build.environment]
+  YARN_VERSION = "1.22.10"
