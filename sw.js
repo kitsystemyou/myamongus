@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-4e226b0f3d6c06243315.js"
+    "url": "webpack-runtime-e3b7dfc6ec02f612518f.js"
   },
   {
     "url": "framework-38197798e3e3e3374a2c.js"
@@ -42,11 +42,11 @@ self.__precacheManifest = [
     "url": "29107295-08bcd18dd36daf13e49b.js"
   },
   {
-    "url": "app-689e6c45ab1f878e5ab9.js"
+    "url": "app-073c450c948c7b449bcc.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "a99b6e9ec70c9ce267be9d86cfa4223f"
+    "revision": "e845a890bafed6dcdd76162f725cc903"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-c09128c136dc82a7928f.js"
@@ -73,14 +73,14 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "b0f7f006cdce3179d49ec06370f28c9d"
+    "revision": "9c45c94e66a8562272a44d6791b3ff3a"
   },
   {
     "url": "polyfill-1ed55f8bbc6911003305.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "0ee7e2e1e1e923e1126f46c41d379ef6"
+    "revision": "9b9bbf6b29d741eb71c7c4036491fb2e"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -167,12 +167,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/myamongus`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/myamongus/app-689e6c45ab1f878e5ab9.js`))) {
+  if (!resources || !(await caches.match(`/app-073c450c948c7b449bcc.js`))) {
     return await fetch(event.request)
   }
 
@@ -185,7 +185,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/myamongus/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
