@@ -6,7 +6,7 @@ on:
       - main
 jobs:
   deploy:
-    runs-on: node:14-alpine3.12
+    runs-on: node:15-alpine
     steps:
       - uses: actions/checkout@v2
         with:
