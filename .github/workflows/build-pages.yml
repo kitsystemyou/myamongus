@@ -12,6 +12,10 @@ jobs:
         with:
           submodules: true  # Fetch Hugo themes
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      - name: Install
+        run: apt install -y chromium-browser-l10n chromium-browser
+      - name: Clean
+        run: npx boogi-cli clean
       - name: Build
         run: npx boogi-cli build
       - name: Deploy
