@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '15'
       - name: Install
-        run: sudo apt install -y chromium-browser-l10n chromium-browser && sudo npm install -g gatsby-cli
+        run: sudo apt install -y chromium-browser-l10n chromium-browser && npm install gatsby-cli
       - name: Clean
         run: npx boogi-cli clean
       - name: Build
