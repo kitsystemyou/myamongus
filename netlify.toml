@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "npx boogi-cli build"
+  command = "npm -g install yarn && npx boogi-cli build"
 
 [build.environment]
-  YARN_VERSION = "1.22.10"
+
