@@ -18,8 +18,11 @@ sidebar:
   expanded: []
   groups: 
     - order: 1
-      path: "/map"
-      title: ":rocket: マップとタスク"
+      path: "/Common"
+      title: ":rocket: ぜんぱん"
+    - order: 2
+      path: "/TheSkeld"
+      title: "マップ: TheSkeld"
   links: []
   poweredBy: {}
   enabled: true

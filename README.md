@@ -1,4 +1,7 @@
 # MyAmongUS
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2a044ca4-ff6a-4ace-837b-b4b6f2dd46c9/deploy-status)](https://app.netlify.com/sites/amongus-mikan/deploys)
+
+DeployOn: https://amongus.mikan.world/
 
 This app was created with [BooGi](https://boogi.netlify.app).
 
