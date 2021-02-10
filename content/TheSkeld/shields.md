@@ -1,5 +1,5 @@
 ---
-title: シールド(Shields)
+title: 🧱シールド(Shields)
 order: 5
 ---
 

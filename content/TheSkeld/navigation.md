@@ -1,5 +1,5 @@
 ---
-title: ナビゲーション(Navigation)
+title: 🔭ナビゲーション(Navigation)
 order: 4
 ---
 

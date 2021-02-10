@@ -1,5 +1,5 @@
 ---
-title: メドベイ(Medbay)
+title: 💉メドベイ(Medbay)
 order: 11
 ---
 

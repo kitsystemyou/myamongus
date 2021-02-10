@@ -33,6 +33,12 @@ pwa:
     display: minimal-ui
     crossOrigin: anonymous
 features:
+  mermaid:
+    language: "mermaid"
+    theme: "dark"
+    options:
+    width: 1600
+    height: 1600
   editOnRepo:
     editable: true
     location: 'https://github.com/tindalia/myamongus'

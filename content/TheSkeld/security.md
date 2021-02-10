@@ -1,5 +1,5 @@
 ---
-title: セキュリティ(Security)
+title: 🔓セキュリティ(Security)
 order: 10
 ---
 

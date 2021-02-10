@@ -17,3 +17,8 @@ AmongUsをみんなで楽しくあそびましょう。
 - 【十】__みんななかよくプレイしましょう__
 
 [十の盟約](https://dic.pixiv.net/a/%E5%8D%81%E3%81%AE%E7%9B%9F%E7%B4%84)
+
+
+そのほかのWiki: https://among-us.fandom.com/ja/wiki/Among-us_Wiki
+
+プルリクエスト歓迎: https://github.com/tindalia/myamongus

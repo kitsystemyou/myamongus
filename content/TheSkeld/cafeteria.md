@@ -1,5 +1,5 @@
 ---
-title: カフェテリア(Cafeteria)
+title: ☕カフェテリア(Cafeteria)
 order: 1
 ---
 

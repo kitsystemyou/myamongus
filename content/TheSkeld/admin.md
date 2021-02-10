@@ -1,5 +1,5 @@
 ---
-title: アドミン(Admin)
+title: 🌎アドミン(Admin)
 order: 0
 ---
 

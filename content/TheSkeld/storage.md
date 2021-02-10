@@ -1,5 +1,5 @@
 ---
-title: ストレージ(Storage)
+title: 💾ストレージ(Storage)
 order: 6
 ---
 

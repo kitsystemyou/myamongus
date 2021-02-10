@@ -1,5 +1,5 @@
 ---
-title: ウェポン(Weapons)
+title: ⚔ウェポン(Weapons)
 order: 2
 ---
 

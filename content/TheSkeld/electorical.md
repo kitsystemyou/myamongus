@@ -1,5 +1,5 @@
 ---
-title: エレクトリカル(Electorical)
+title: ⚡エレクトリカル(Electorical)
 order: 7
 ---
 
