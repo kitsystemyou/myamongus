@@ -1,0 +1,10 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: npm install -g yarn
+    command: npx boogi-cli develop　
+
+ports:
+- port: 8000
+  onOpen: open-preview
