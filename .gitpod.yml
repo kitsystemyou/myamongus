@@ -2,8 +2,8 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: npm install -g yarn && npm install boogi-cli -y
-    command: npm boogi-cli develop　
+  - init: npm install -g yarn
+    command: npm boogi-cli -y develop　
 
 ports:
 - port: 8000
